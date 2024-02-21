@@ -7,3 +7,7 @@
 /dataSources/
 /dataSources.local.xml
 out/
+*.class
+*.tasty
+*.properties
+functional-programming-in-scala/src/chapter3/.DS_Store
