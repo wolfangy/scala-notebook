@@ -45,6 +45,8 @@ object Program /*extends App*/{
   def compose[A, B, C] (f: B => C, g: A => B): A => C =
     a => f(g(a))
 
+
+
   println(formatResult("abs", -42, abs))
   println(formatResult("factorial", 10, factorial))
   println(formatResult("fib", 6, fib))
